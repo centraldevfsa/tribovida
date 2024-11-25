@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comunidade Tribo Vida</title>
+  <script src="https://cdn.tailwindcss.com/3.4.13"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Lexend', sans-serif;
+    }
+
+    .hero-bg {
+background-image: url('img/bg.jpg'); /* Substituir com o caminho correto */
+background-size: cover;
+background-position: top;
+}
+  </style>
+</head>
+<body class="text-gray-900">
+  
+  <!-- Hero Section -->
+<div class="hero-bg w-full relative overflow-hidden min-h-screen flex flex-col">
+    <!-- Navbar -->
+    <nav class="py-4 px-6 flex justify-between items-center">
+        <!-- Logotipo -->
+        <div class="flex items-center">
+            <img src="img/logo-tribovida.png" alt="Logotipo" class="h-10">
+        </div>
+
+        <!-- Botão -->
+        <div>
+            <button class="text-white font-semibold px-6 py-2 border-2 border-yellow-500 rounded-md transition-all hover:shadow-[0_0_15px_rgba(255,255,0,0.7)]">
+                Profissionais recomendados
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="flex-1 flex items-center">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+            <!-- Texto -->
+            <div class="text-center md:text-left md:w-1/2">
+                <img src="img/logo-tribovida-2.svg" alt="Logo Secundário" class="h-20 mb-4 md:mb-6">
+                <h1 class="text-3xl md:text-5xl font-bold text-white" style="line-height: 1.2;">
+                    <span class="text-yellow-500">Desligue os genes da doença</span> com ferramentas simples baseadas em ciência.
+                </h1>
+                <button class="bg-yellow-500 text-gray-900 py-3 px-8 mt-6 font-semibold rounded-md shadow-lg hover:bg-yellow-400">
+                    Quero Assinar Agora
+                </button>
+            </div>
+
+            <!-- Imagem -->
+            <div class="md:w-1/2 flex justify-center md:justify-end">
+                <img src="img/home-tribovida.png" alt="Mockup de celular" class="w-auto h-auto max-h-[90%] md:absolute bottom-0 right-0">
+            </div>
+        </div>
+    </section>
+</div>
+
+
+  <!-- Introdução -->
+  <section class="bg-yellow-500">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <!-- Imagem -->
+      <div class="w-full md:w-1/2 flex justify-center md:justify-start">
+        <img src="img/bg2.png" alt="Imagem de introdução" class="max-w-full h-auto">
+      </div>
+      
+      <!-- Texto -->
+      <div class="w-full mt-10 md:mt-0 md:w-1/2 md:pl-10 text-center md:text-left">
+        <p class="text-base text-white mb-6">
+            Lorem ipsum et dolor
+          </p>
+        <h2 class="text-blue-900 text-3xl md:text-4xl font-bold mb-6">
+          Quer uma vida mais saudável, mas não sabe por onde começar?
+        </h2>
+        <p class="text-lg text-white mb-6">
+          Você já tentou mudar seus hábitos, mas nunca sabe qual informação seguir. Imagine ter ferramentas simples para transformar sua saúde sem gastar horas descobrindo sozinho.
+        </p>
+        <button class="bg-blue-900 text-white py-3 px-8 font-semibold rounded-md hover:shadow-xl hover:bg-blue-900 hover:px-12">
+          Quero Assinar Agora
+        </button>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Ferramentas -->
+  <section class="bg-blue-500 py-16">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 text-center md:text-left">
+        <p class="text-base text-white mb-6">
+            Lorem ipsum et dolor
+          </p>
+        <h2 class="text-white text-3xl md:text-4xl font-bold mb-6 leading-snug">Essas ferramentas estão disponíveis no formato de revista digital.</h2>
+        <p class="text-lg mb-6 text-white">
+          Receba materiais práticos e baseados em ciência para melhorar sua memória, imunidade e qualidade de vida.
+        </p>
+        <button class="bg-yellow-500 text-gray-800 py-3 px-8 font-semibold rounded-md shadow-lg hover:bg-yellow-400">
+          Quero Assinar Agora
+        </button>
+      </div>
+      <div class="mt-10 md:mt-10 md:w-1/2">
+        <img src="img/bg3.png" alt="Mockups de ferramentas" class="h-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Especialistas -->
+  <section class="bg-white">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2">
+          <img src="img/home-tribovida.png" alt="Especialistas" class="max-w-full">
+        </div>
+        <div class="mt-10 md:mt-0 md:w-1/2 md:pl-10 text-center md:text-left">
+            <p class="text-base text-blue-900 mb-6">
+                Lorem ipsum et dolor
+              </p>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-snug text-gray-800"><span class="text-blue-900">Por trás dessas ferramentas:</span> Conheça os especialistas</h2>
+          <p class="text-lg text-gray-800">
+            Nossos especialistas são referência em saúde e bem-estar, trazendo conteúdos confiáveis para transformar sua vida.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section class="bg-blue-400 py-32">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <!-- Coluna da esquerda: Texto e lista -->
+      <div class="md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start">
+        <h2 class="text-white text-3xl md:text-4xl font-bold mb-10">Veja o que você recebe ao assinar a Comunidade Tribo Vida:</h2>
+        <ul class="space-y-4 text-white">
+          <li class="flex items-center text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15H4a1 1 0 110-2h3.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Acesso às revistas digitais
+          </li>
+          <li class="flex items-center text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15H4a1 1 0 110-2h3.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Guias práticos sobre saúde
+          </li>
+          <li class="flex items-center text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15H4a1 1 0 110-2h3.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Materiais exclusivos para membros
+          </li>
+          <li class="flex items-center text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15H4a1 1 0 110-2h3.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Escolha dos temas mais relevantes
+          </li>
+          <li class="flex items-center text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15H4a1 1 0 110-2h3.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Acesso às revistas digitais
+          </li>
+          <li class="flex items-center text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15H4a1 1 0 110-2h3.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Guias práticos sobre saúde
+          </li>
+          <li class="flex items-center text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15H4a1 1 0 110-2h3.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Materiais exclusivos para membros
+          </li>
+          <li class="flex items-center text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15H4a1 1 0 110-2h3.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Escolha dos temas mais relevantes
+          </li>
+        </ul>
+        <button class="text-yellow-400 py-3 px-8 mt-10 font-semibold rounded-md border border-yellow-300 hover:bg-yellow-400">
+            Ver lista completa
+          </button>
+        <button class="bg-yellow-500 text-blue-700 py-3 px-8 mt-10 font-semibold rounded-md shadow-lg hover:bg-yellow-400">
+          Quero Assinar Agora
+        </button>
+      </div>
+      <!-- Coluna da direita: Imagem -->
+      <div class="md:w-1/2 mt-10 md:mt-0 text-center">
+        <img src="img/bg4.png" alt="Imagem de introdução" class="max-w-full">
+      </div>
+    </div>
+  </section>
+  
+  
+
+ <!-- Preço -->
+<section class="bg-white py-16">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <!-- Coluna da esquerda: Imagem -->
+      <div class="md:w-1/2 text-center">
+        <img src="img/bg5.png" alt="Imagem ilustrativa" class="max-w-full">
+      </div>
+      <!-- Coluna da direita: Texto e botão -->
+      <div class="md:w-1/2 mt-10 md:mt-0 text-center md:text-left">
+        <h1 class="text-4xl font-bold mb-4">E mais...</h1>
+        <p class="text-lg mb-6">
+          E mais: acesso exclusivo a revistas digitais, uma comunidade ativa e a liberdade de escolher os temas que mais importam para você, tudo pensado para transformar sua jornada de saúde.
+        </p>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Por apenas</h2>
+        <p class="text-5xl font-bold text-yellow-500 mb-6">R$487,14/ano</p>
+        <button class="bg-yellow-500 text-blue-700 py-3 px-8 font-semibold rounded-md shadow-lg hover:bg-yellow-400">
+          Quero Assinar Agora
+        </button>
+        <p class="text-sm text-gray-700 mt-4">
+          Garanta acesso completo a todos os conteúdos exclusivos da Comunidade Tribo Vida por um ano inteiro!
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- FAQ -->
+  <section class="bg-blue-700 text-white py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-10">Perguntas Frequentes</h2>
+      <div class="space-y-6">
+        <details class="bg-blue-800 p-6 rounded-lg">
+          <summary class="cursor-pointer font-semibold">Posso cancelar a assinatura a qualquer momento?</summary>
+          <p class="mt-4 text-sm">Sim, você pode cancelar quando quiser sem custos adicionais.</p>
+        </details>
+        <details class="bg-blue-800 p-6 rounded-lg">
+          <summary class="cursor-pointer font-semibold">Como faço para acessar os conteúdos?</summary>
+          <p class="mt-4 text-sm">Todos os conteúdos ficam disponíveis na área de membros.</p>
+        </details>
+        <details class="bg-blue-800 p-6 rounded-lg">
+          <summary class="cursor-pointer font-semibold">Quanto tempo terei acesso aos materiais?</summary>
+          <p class="mt-4 text-sm">Você terá acesso durante toda a sua assinatura anual.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-4">
+    <p class="text-sm">&copy; 2024 Comunidade Tribo Vida. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
